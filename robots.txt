@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://attajak.github.io/attajak-hbt/sitemap.xml
