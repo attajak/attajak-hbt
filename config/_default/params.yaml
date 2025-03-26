@@ -172,10 +172,10 @@ creativeCommons:
 
 # See https://giscus.app
 giscus:
-  repo: "razonyang/hugo-theme-bootstrap-skeleton" # required.
-  repoId: "R_kgDOHJi95g" # required.
-  category: "General" # required.
-  categoryId: "DIC_kwDOHJi95s4CTy6q" # required.
+  repo: "" # required.
+  repoId: "" # required.
+  category: "" # required.
+  categoryId: "" # required.
   # theme: "dark" # Default to auto.
   # mapping: "title" # Default to pathname.
   # inputPosition: "bottom" # Default to top.
@@ -206,8 +206,8 @@ search:
   # debug: true
 
 reward:
-  alipay: images/reward/alipay.png
-  wechat: images/reward/wechat.png
+  #alipay: images/reward/alipay.png
+  #wechat: images/reward/wechat.png
   #paypal: images/reward/paypal.png
   #patreon: images/reward/patreon.png
   #liberapay: images/reward/liberapay.png
@@ -243,14 +243,14 @@ pwa:
     #   src: /images/icons/icon-144x144.png
 
 contact:
-  endpoint: https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd # Backend endpoint, remove this line if you're using Netlify.
+  endpoint: # Backend endpoint, remove this line if you're using Netlify.
   # file: true # Enable file upload
   # fileField: image # The name of file field.
   # reCaptcha:
     # siteKey: ""
 
 repo:
-  url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
+  url: https://github.com/razonyang/attajak-hbt
   branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
@@ -258,17 +258,17 @@ repo:
 topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    github: razonyang/hugo-theme-bootstrap
-    patreon: razonyang
-    paypal: razonyang
+    github: attajak/attajak-hbt
+    # patreon: razonyang
+    paypal: attajak
 
 docs:
   nav:
     expand: false # Expand docs navigation.
     reduceFontSize: true # Reduce font size of children navigation.
 
-#feeds:
-  # content: true
+feeds:
+  content: true
 
 social:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
@@ -307,9 +307,9 @@ social:
   tipeee: yourtipeeeaccount-fr
 
 author:
-  name: Razon Yang
+  name: Attajak Janrak
   # avatar: images/profile.png # Avatar image. Default to "images/profile.webp".
-  bio: 'Gopher, PHPer, Full Stack Engineer.'
+  bio: 'Nobody'
   company: Company # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
   location: Earth # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
   # about: https://razonyang.com # The external about page. The internal about page will be used if not set.
@@ -318,9 +318,9 @@ author:
   }
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    email: razonyang@gmail.com
-    github: razonyang/hugo-theme-bootstrap
-    twitter: razonyang
-    patreon: razonyang
-    paypal: razonyang
+    email: attajak@gmail.com
+    github: razonyang/attajak-hbt
+    twitter: attajak
+    # patreon: razonyang
+    paypal: attajak
     rss: "" # Remove RSS

@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '22'
 
       - name: Cache dependencies
         uses: actions/cache@v2
@@ -39,7 +39,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --gc --enableGitInfo -b https://projects.razonyang.com/hugo-theme-bootstrap-skeleton/
+        run: hugo --minify --gc --enableGitInfo -b https://attajak.github.io/attajak-hbt/ --logLevel info
 
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
