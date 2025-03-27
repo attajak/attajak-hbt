@@ -39,6 +39,8 @@ jobs:
           extended: true
 
       - name: Build
+        env: 
+          HUGO_ENV: production
         run: hugo --minify --gc --enableGitInfo -b https://attajak.github.io/attajak-hbt/ --logLevel info
 
       - name: Deploy 🚀
