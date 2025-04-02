@@ -1,7 +1,7 @@
 image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
 variables:
-  HUGO_ENV: production
+  HUGO_ENVIRONMENT: production
 
 default:
   before_script:
