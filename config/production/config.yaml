@@ -1,5 +1,5 @@
-baseURL: https://attajak.github.io/attajak-hbt/
-title: Attajak (HBT)
+baseURL: "/attajak-hbt/"
+title: "Attajak (HBT)"
 
 # services:
 #   googleAnalytics:
