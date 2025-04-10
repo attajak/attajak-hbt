@@ -29,8 +29,7 @@
     "server": "hugo server -D -E -F -M -N -O --disableFastRender --bind 0.0.0.0 -b http://localhost:1313/",
     "server:production": "npm run server -- -e production",
     "mods:list": "npm list && hugo mod graph",
-    "mods:update": "npm update && hugo mod get -u && hugo mod tidy",
-    "prepare": "npm install && hugo mod tidy"
+    "mods:update": "npm update && hugo mod get -u && hugo mod tidy"
   },
   "dependencies": {
     "@algolia/autocomplete-js": "^1.7.3",
