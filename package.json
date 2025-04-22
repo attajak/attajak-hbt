@@ -23,7 +23,6 @@
   "main": "index.js",
   "private": "true",
   "scripts": {
-    "test": "hugo build",
     "create": "hugo new content",
     "build": "hugo --gc --minify --logLevel info",
     "server": "hugo server -D -E -F -M -N -O --disableFastRender --bind 0.0.0.0 -b http://localhost:1313/",
