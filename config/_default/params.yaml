@@ -54,7 +54,7 @@ googleAdsense:
 # socialShare: false # disable social network sharing
 # searchBar: false # disable search-bar
 
-poweredBy: true # Whether to show powered by.
+# poweredBy: true # Whether to show powered by.
 
 # readingTime: false # Whether to display the reading time.
 postDate: true # Whether to display the post date in the post meta section.
@@ -250,7 +250,7 @@ contact:
     # siteKey: ""
 
 repo:
-  url: https://github.com/razonyang/attajak-hbt
+  url: https://github.com/attajak/attajak-hbt
   branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
@@ -259,7 +259,7 @@ topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
     github: attajak/attajak-hbt
-    # patreon: razonyang
+    # patreon: attajak
     paypal: attajak
 
 docs:
@@ -274,7 +274,7 @@ social:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   email: user@domain.tld
   facebook: yourfacebookusername
-  github: razonyang/hugo-theme-bootstrap
+  github: attajak/attajak-hbt
   gitlab: yourgitlabusername
   linkedin: yourlinkedinusername
   xing: yourxingusername
@@ -302,8 +302,8 @@ social:
   pinterest: yourpinterestusername
   mastodon: yourmastodonusername
   liberapay: yourliberapayaccount
-  paypal: razonyang
-  patreon: razonyang
+  paypal: attajak
+  patreon: attajak
   tipeee: yourtipeeeaccount-fr
 
 author:
