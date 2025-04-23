@@ -31,7 +31,7 @@
     "mods:update": "npm update && hugo mod get -u && hugo mod tidy"
   },
   "dependencies": {
-    "@algolia/autocomplete-js": "^1.7.3",
+    "@algolia/autocomplete-js": "^1.19.0",
     "@algolia/autocomplete-theme-classic": "^1.7.3",
     "@docsearch/js": "^3.5.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
