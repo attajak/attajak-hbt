@@ -4,5 +4,4 @@
 /build
 .hugo_build.lock
 hugo_stats.json
-package-lock.json
 jsconfig.json
