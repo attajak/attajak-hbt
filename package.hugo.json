@@ -1,66 +1,26 @@
 {
   "name": "attajak-hbt",
-  "version": "0.1.0",
-  "description": "Hugo + hugo-theme-bootstrap",
-  "keywords": [
-    "attajak",
-    "janrak",
-    "hugo",
-    "bootstrap",
-    "theme"
-  ],
-  "homepage": "https://github.com/attajak/attajak-hbt#readme",
-  "bugs": {
-    "url": "https://github.com/attajak/attajak-hbt/issues"
-  },
+  "version": "1.0.0",
+  "description": "hugo + hugo-theme-bootstrap",
+  "main": "main.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/attajak/attajak-hbt.git"
   },
-  "license": "MIT",
+  "keywords": [
+    "attajak",
+    "janrak",
+    "github",
+    "hugo",
+    "bootstrap",
+    "theme"
+  ],
   "author": "attajak (https://github.com/attajak/)",
-  "type": "module",
-  "main": "index.js",
-  "private": "true",
-  "scripts": {
-    "create": "hugo new content",
-    "build": "hugo --gc --minify --logLevel info",
-    "server": "hugo server -D -E -F -M -N -O --disableFastRender --bind 0.0.0.0 -b http://localhost:1313/",
-    "server:production": "npm run server -- -e production",
-    "mods:list": "npm list && hugo mod graph",
-    "mods:update": "npm update && hugo mod get -u && hugo mod tidy"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/attajak/attajak-hbt/issues"
   },
-  "dependencies": {
-    "@algolia/autocomplete-js": "^1.19.0",
-    "@algolia/autocomplete-theme-classic": "^1.7.3",
-    "@docsearch/js": "^3.5.2",
-    "@fortawesome/fontawesome-svg-core": "^6.7.2",
-    "@fortawesome/free-brands-svg-icons": "^6.7.2",
-    "@fortawesome/free-regular-svg-icons": "^6.7.2",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fullhuman/postcss-purgecss": "^7.0.2",
-    "@popperjs/core": "^2.11.2",
-    "algoliasearch": "^5.23.4",
-    "autoprefixer": "^10.4.2",
-    "bootstrap": "^5.3.2",
-    "date-fns": "^4.1.0",
-    "fuse.js": "^7.1.0",
-    "katex": "^0.16.4",
-    "mark.js": "^8.11.1",
-    "masonry-layout": "^4.2.2",
-    "mermaid": "^11.6.0",
-    "mustache": "^4.2.0",
-    "onchange": "^7.1.0",
-    "postcss-cli": "^11.0.1",
-    "rtlcss": "^4.3.0",
-    "viewerjs": "^1.10.4",
-    "workbox-cacheable-response": "^6.4.2",
-    "workbox-expiration": "^7.3.0",
-    "workbox-precaching": "^7.3.0",
-    "workbox-routing": "^7.3.0",
-    "workbox-strategies": "^7.3.0"
-  },
-  "devDependencies": {},
+  "homepage": "https://github.com/attajak/attajak-hbt#readme",
   "comments": {
     "dependencies": {
       "@algolia/autocomplete-js": "github.com/razonyang/hugo-theme-bootstrap",
@@ -93,5 +53,38 @@
       "workbox-strategies": "github.com/razonyang/hugo-theme-bootstrap"
     },
     "devDependencies": {}
-  }
+  },
+  "dependencies": {
+    "@algolia/autocomplete-js": "^1.7.3",
+    "@algolia/autocomplete-theme-classic": "^1.7.3",
+    "@docsearch/js": "^3.5.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fullhuman/postcss-purgecss": "^4.1.3",
+    "@popperjs/core": "^2.11.2",
+    "algoliasearch": "^4.14.2",
+    "autoprefixer": "^10.4.2",
+    "bootstrap": "^5.3.2",
+    "date-fns": "^2.29.3",
+    "fuse.js": "^6.5.3",
+    "katex": "^0.16.4",
+    "mark.js": "^8.11.1",
+    "masonry-layout": "^4.2.2",
+    "mermaid": "^10.0.0",
+    "mustache": "^4.2.0",
+    "onchange": "^7.1.0",
+    "postcss-cli": "^9.1.0",
+    "rtlcss": "^3.5.0",
+    "viewerjs": "^1.10.4",
+    "workbox-cacheable-response": "^6.4.2",
+    "workbox-expiration": "^6.4.2",
+    "workbox-precaching": "^6.4.2",
+    "workbox-routing": "^6.4.2",
+    "workbox-strategies": "^6.4.2"
+  },
+  "devDependencies": {},
+  "name": "hugo-theme-bootstrap-skeleton",
+  "version": "0.1.0"
 }
