@@ -2,11 +2,11 @@
 publish = "public"
 
 [build.environment]
-NODE_VERSION = "22.14.0"
-HUGO_VERSION = "0.146.6"
+NODE_VERSION = "24.12.0"
+HUGO_VERSION = "0.154.0"
 HUGO_EXTENDED = "true"
 HUGO_ENABLEGITINFO = "true"
-GO_VERSION = "1.24.1"
+GO_VERSION = "1.25.4"
 
 [context.production]
 command = "npm install && hugo --gc --minify --logLevel info"
