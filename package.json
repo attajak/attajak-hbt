@@ -4,9 +4,11 @@
   "description": "hugo + hugo-theme-bootstrap",
   "main": "main.js",
   "scripts": {
-    "dev": "hugo server -D -E -F -N -M -O --gc --minify --disableFastRender --logLevel info -b http://localhost:1313/",
+    "start": "hugo server -D -E -F -N -M -O --disableFastRender --logLevel info -b http://localhost",
     "build": "hugo --gc --minify --logLevel info",
-    "update:mods": "hugo mod get -u && hugo mod tidy && hugo mod graph"
+    "update:mods": "npm update && hugo mod get -u && hugo mod tidy",
+    "list:mods": "npm list && hugo mod graph",
+    "list:content": "hugo list all"
   },
   "repository": {
     "type": "git",
