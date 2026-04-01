@@ -8,12 +8,23 @@ updates:
   - package-ecosystem: "github-actions" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "monthly"
+      interval: "weekly"
+    assignees:
+      - "attajak"
+    labels:
+      - "github_actions"
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
       interval: "monthly"
+    assignees:                                                          - "attajak"
+    labels:
+      - "dependencies"
 #  - package-ecosystem: "npm"
 #    directory: "/"
 #    schedule:
 #      interval: "monthly"
+#   assignees:
+#   - "attajak"
+#   labels:
+#   - "dependencies"
