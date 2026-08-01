@@ -17,7 +17,8 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-    assignees:                                                          - "attajak"
+    assignees:
+      - "attajak"
     labels:
       - "dependencies"
 #  - package-ecosystem: "npm"
